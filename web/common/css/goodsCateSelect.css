@@ -1,0 +1,74 @@
+#topCateDiv {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    width: 160px;
+    height: 341px;
+}
+#subCateDiv {
+    position: absolute;
+    left: 300px;
+    top: 10px;
+    width: 160px;
+    height: 341px;
+}
+#minCateDiv {
+    position: absolute;
+    left:600px;
+    top: 10px;
+    width: 160px;
+    height: 341px;
+}
+
+#goodsTypeDiv{
+    position: absolute;
+    left: 900px;
+    top: 10px;
+    width: 160px;
+    height: 341px;
+}
+
+
+.cateSel {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 160px;
+    height: 341px;
+    font-family: 'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 16px;
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+.ax_default {
+    font-family: 'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 16px;
+    line-height: normal;
+    color: #000000;
+    text-align: left;
+}
+select option{
+
+    line-height:30px;
+
+    height:30px;
+
+    width: auto;
+    padding: 0 2%;
+    margin: 0;
+
+}
+
+select {
+    width: 100px;
+    height: 130px;
+    text-align: left;
+    text-align-last: center;
+}

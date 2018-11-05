@@ -1,0 +1,85 @@
+#u3634_1 {
+    position: absolute;
+    left: 74px;
+    top: 10px;
+    width: 194px;
+    height: 341px;
+}
+#u3634_2 {
+    position: absolute;
+    left: 400px;
+    top: 10px;
+    width: 194px;
+    height: 341px;
+}
+#u3634_3 {
+    position: absolute;
+    left: 700px;
+    top: 10px;
+    width: 194px;
+    height: 341px;
+}
+#u3634_input_1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 194px;
+    height: 341px;
+    font-family: 'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000000;
+}
+#u3634_input_1 {
+    font-family: 'PingFang SC';
+
+}
+#u3634_input_2 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 194px;
+    height: 341px;
+    font-family: 'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000000;
+}
+#u3634_input_2 {
+    font-family: 'PingFang SC';
+
+}
+#u3634_input_3 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 194px;
+    height: 341px;
+    font-family: 'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000000;
+}
+#u3634_input_3 {
+    font-family: 'PingFang SC';
+
+}
+.ax_default {
+    font-family: 'PingFangSC-Thin', 'PingFang SC Thin', 'PingFang SC';
+    font-weight: 200;
+    font-style: normal;
+    font-size: 12px;
+    color: #333333;
+    text-align: center;
+    line-height: normal;
+}
+._列表框 {
+    color: #000000;
+    text-align: left;
+}

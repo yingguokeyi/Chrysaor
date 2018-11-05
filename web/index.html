@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!-- Layui -->
+    <link rel="stylesheet" type="text/css" href="./layui/css/layui.css?t=1515376178738" />
+    <!-- jQuery -->
+    <script type="text/javascript" src="./common/third-part/jquery-1.11.3.min.js"></script>
+
+    <script type="text/javascript" src="./layui/layui.js?t=1515376178738"></script>
+</head>
+<body>
+<!--头部信息-->
+<div class="layui-layout layui-layout-admin">
+    <div class="layui-header">
+        <div class="layui-logo">运营平台</div>
+        <ul class="layui-nav layui-layout-left">
+            <li class="layui-nav-item"><a href="${ctx}/goods/index.jsp">商品中心</a></li>
+            <li class="layui-nav-item"><a href="${ctx}/order/orderList.jsp">订单中心</a></li>
+            <li class="layui-nav-item"><a href="${ctx}/finance/finance.jsp">财务管理</a></li>
+            <li class="layui-nav-item"><a href="${ctx}/member/memberList.jsp">会员管理</a></li>
+            <li class="layui-nav-item"><a href="${ctx}/member/distributionSet.jsp">分销管理</a></li>
+            <!--<li class="layui-nav-item">
+            <a href="javascript:;">其它管理</a>
+            <dl class="layui-nav-child">
+                <<dd><a href="">邮件管理</a></dd>
+                <<dd><a href="">消息管理</a></dd>
+                <dd><a href="">授权管理</a></dd>
+                </dl>
+            </li>-->
+        </ul>
+        <ul class="layui-nav layui-layout-right">
+            <li class="layui-nav-item"><a href="${ctx}/index.jsp">首页</a></li>
+            <li class="layui-nav-item"><a href="${ctx}/System_settings/staff_management.jsp">系统设置</a></li>
+            <li class="layui-nav-item"><a href="${ctx}/System_settings/person_settings.jsp">个人设置</a></li>
+            <li class="layui-nav-item">
+                <a href="javascript:;">
+                    <img src="http://t.cn/RCzsdCq" class="layui-nav-img">
+
+                </a>
+                <dl class="layui-nav-child">
+                    <dd><a href="">基本资料</a></dd>
+                    <dd><a href="">安全设置</a></dd>
+                </dl>
+            </li>
+            <li class="layui-nav-item"><a href="${ctx}/login.jsp">退出</a></li>
+        </ul>
+
+    </div>
+<!--中间table-->
+<iframe src="common/indextable.html" width="2000" height="950" ></iframe>
+
+<!-- 左侧导航区域（可配合layui已有的垂直导航） -->
+<div class="layui-side layui-bg-black">
+    <div class="layui-side-scroll">
+        <ul class="layui-nav layui-nav-tree"  lay-filter="test">
+            <li class="layui-nav-item layui-nav-itemed">
+                <a class="" href="javascript:;">商品管理</a>
+                <dl class="layui-nav-child">
+                    <dd id="dd1"><a href="${ctx}/goods/goodsSourceList.jsp?menuIndex=1">商品来源</a></dd>
+                    <dd id="dd2"><a href="${ctx}/goods/goodsList.jsp?menuIndex=2">商品管理</a></dd>
+                    <dd id="dd3"><a href="${ctx}/goods/goodsAdd_A.jsp?menuIndex=3">添加商品</a></dd>
+                    <dd id="dd4"><a href="${ctx}/goods/goodsTrash.jsp?menuIndex=4">商品回收站</a></dd>
+                    <dd id="dd5"><a href="${ctx}/goods/goodsCategoryList.jsp?manType=topCate&menuIndex=5">商品分类管理</a></dd>
+                    <!--<dd><a href="${ctx}/goods/goodsCategoryAdd.jsp">添加商品分类</a></dd>-->
+                    <dd id="dd6"><a href="${ctx}/goods/goodsTypeList.jsp?menuIndex=6">商品类型管理</a></dd>
+                    <dd id="dd7"><a href="${ctx}/goods/goodsTypeAdd.jsp?menuIndex=7" >添加商品类型</a></dd>
+                    <dd id="dd8"><a href="${ctx}/goods/goodsBrandList.jsp?menuIndex=8">品牌管理</a></dd>
+                    <dd id="dd9"><a href="${ctx}/goods/supplierList.jsp?menuIndex=9">供应商管理</a></dd>
+                    <dd id="dd10"><a href="${ctx}/goods/planList.jsp?menuIndex=10">首页推荐管理</a></dd>
+                    <dd id="dd11"><a href="${ctx}/goods/quantityUnitList.jsp?menuIndex=11">单位数量管理</a></dd>
+                    <dd id="dd12"><a href="${ctx}/goods/areaList.jsp?menuIndex=12">地区管理</a></dd>
+                    <!--<dd id="dd11"><a href="${ctx}/goods/demo1.jsp?menuIndex=11">测试测试</a></dd>-->
+
+                    <!--<dd><a href="${ctx}/goods/index">自提点列表</a></dd>
+                    <dd><a href="${ctx}/goods/index">添加自提点</a></dd>
+                    <dd><a href="${ctx}/goods/areaList.jsp">地区管理</a></dd>-->
+                </dl>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+<div class="layui-footer" align="center">
+    <!-- 底部固定区域 -->
+    © 掌大优选 - 总得怀揣一份情怀，去实现平凡生活中的英雄梦想
+</div>
+<!--<script>
+    var menuIndex = <%=menuIndex%>;
+    $('#dd' + menuIndex).addClass("layui-this");
+</script>-->
+</html>
